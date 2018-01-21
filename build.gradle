@@ -31,11 +31,6 @@ ext {
     gradleWrapperVersion = project.gradleWrapperVersion
 }
 
-assets {
-    minifyJs = true
-    minifyCss = true
-}
-
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
