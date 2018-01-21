@@ -45,6 +45,7 @@ class FidbackController {
         respond ([status: true, message: "message send successfully !"] as JSON)
     }
 
+
     def update(Fidback fidback, String message) {
         try {
             fidback.message = message
