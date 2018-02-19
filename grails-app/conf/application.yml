@@ -75,14 +75,14 @@ dataSource:
     pooled: true
     jmxExport: true
     driverClassName: com.mysql.jdbc.Driver
-    username: root
-    password: admin
+    username: sql12221834
+    password: ZuykUzTu6L
 
 environments:
     development:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://localhost:3306/fidback?zeroDateTimeBehavior=convertToNull
+            url: jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12221834?zeroDateTimeBehavior=convertToNull
     test:
         dataSource:
             dbCreate: update
